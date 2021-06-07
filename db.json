@@ -772,13 +772,13 @@
     },
     {
       "id": "1",
-      "name": "Lusheeta Toel Ul Laputa (Sheeta)",
+      "name": "Sheeta",
       "gender": "Female",
       "age": "13",
       "eye_color": "Black",
       "hair_color": "Black",
       "image": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c3/Sheeta.jpg",
-      "description": "Sheeta is the rightful princess of Laputa. She possesses an Aetherium crystal, which can save her in times of danger. Possessing the Aetherium crystal, she is chased down by the Dola gang, Muska, and the military. Muska manages to capture her and take her into custody aboard the civilian passenger airship Saturn.",
+      "description": "Sheeta, also known as Lusheeta Toel Ul Laputa, is the rightful princess of Laputa. She possesses an Aetherium crystal, which can save her in times of danger. Possessing the Aetherium crystal, she is chased down by the Dola gang, Muska, and the military. Muska manages to capture her and take her into custody aboard the civilian passenger airship Saturn.",
       "films": [
         {
           "title": "Castle in the Sky",
@@ -808,7 +808,7 @@
     },
     {
       "id": "3",
-      "name": "Romska Palo Ul Laputa (Muska)",
+      "name": "Colonel Muska",
       "gender": "Male",
       "age": "33",
       "eye_color": "Hazel",
