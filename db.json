@@ -1,16 +1,1538 @@
 {
-  "posts":[
+  "films": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": "0",
+      "title": "Castle in the Sky",
+      "original_title": "天空の城ラピュタ",
+      "original_title_romanised": "Tenkū no shiro Rapyuta",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c1/Castle_in_the_Sky.jpg",
+      "description": "The orphan Sheeta inherited a mysterious crystal that links her to the mythical sky-kingdom of Laputa. With the help of resourceful Pazu and a rollicking band of sky pirates, she makes her way to the ruins of the once-great civilization. Sheeta and Pazu must outwit the evil Muska, who plans to use Laputa's science to make himself ruler of the world.",
+      "director": "Hayao Miyazaki",
+      "producer": "Isao Takahata",
+      "release_date": "1986",
+      "running_time": "124",
+      "rt_score": "95",
+      "people": [
+        "http://localhost:3000/characters/0",
+        "http://localhost:3000/characters/1",
+        "http://localhost:3000/characters/2",
+        "http://localhost:3000/characters/3",
+        "http://localhost:3000/characters/4",
+        "http://localhost:3000/characters/5",
+        "http://localhost:3000/characters/6",
+        "http://localhost:3000/characters/7",
+        "http://localhost:3000/characters/8",
+        "http://localhost:3000/characters/9",
+        "http://localhost:3000/characters/10",
+        "http://localhost:3000/characters/39",
+        "http://localhost:3000/characters/42"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/0"
+    },
+    {
+      "id": "1",
+      "title": "Grave of the Fireflies",
+      "original_title": "火垂るの墓",
+      "original_title_romanised": "Hotaru no haka",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/a/a5/Grave_of_the_Fireflies_Japanese_poster.jpg",
+      "description": "In the latter part of World War II, a boy and his sister, orphaned when their mother is killed in the firebombing of Tokyo, are left to survive on their own in what remains of civilian life in Japan. The plot follows this boy and his sister as they do their best to survive in the Japanese countryside, battling hunger, prejudice, and pride in their own quiet, personal battle.",
+      "director": "Isao Takahata",
+      "producer": "Toru Hara",
+      "release_date": "1988",
+      "running_time": "89",
+      "rt_score": "97",
+      "people": [
+        "http://localhost:3000/characters/"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/1"
+    },
+    {
+      "id": "2",
+      "title": "My Neighbor Totoro",
+      "original_title": "となりのトトロ",
+      "original_title_romanised": "Tonari no Totoro",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/d/db/My_Neighbor_Totoro.jpg",
+      "description": "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.",
+      "director": "Hayao Miyazaki",
+      "producer": "Hayao Miyazaki",
+      "release_date": "1988",
+      "running_time": "86",
+      "rt_score": "93",
+      "people": [
+        "http://localhost:3000/characters/22",
+        "http://localhost:3000/characters/23",
+        "http://localhost:3000/characters/24",
+        "http://localhost:3000/characters/25",
+        "http://localhost:3000/characters/28",
+        "http://localhost:3000/characters/29",
+        "http://localhost:3000/characters/30",
+        "http://localhost:3000/characters/31",
+        "http://localhost:3000/characters/26",
+        "http://localhost:3000/characters/27"
+      ],
+      "species": [
+        "Human",
+        "Cat",
+        "Totoro"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/2"
+    },
+    {
+      "id": "3",
+      "title": "Kiki's Delivery Service",
+      "original_title": "魔女の宅急便",
+      "original_title_romanised": "Majo no takkyūbin",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/5/5c/Kikis_Delivery_Service_poster_en.jpg",
+      "description": "A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.",
+      "director": "Hayao Miyazaki",
+      "producer": "Hayao Miyazaki",
+      "release_date": "1989",
+      "running_time": "102",
+      "rt_score": "96",
+      "people": [
+        "http://localhost:3000/characters/21"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/3"
+    },
+    {
+      "id": "4",
+      "title": "Only Yesterday",
+      "original_title": "おもひでぽろぽろ",
+      "original_title_romanised": "Omoide poro poro",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/a/a9/Only_Yesterday.jpg",
+      "description": "It’s 1982, and Taeko is 27 years old, unmarried, and has lived her whole life in Tokyo. She decides to visit her family in the countryside, and as the train travels through the night, memories flood back of her younger years: the first immature stirrings of romance, the onset of puberty, and the frustrations of math and boys. At the station she is met by young farmer Toshio, and the encounters with him begin to reconnect her to forgotten longings. In lyrical switches between the present and the past, Taeko contemplates the arc of her life, and wonders if she has been true to the dreams of her childhood self.",
+      "director": "Isao Takahata",
+      "producer": "Toshio Suzuki",
+      "release_date": "1991",
+      "running_time": "118",
+      "rt_score": "100",
+      "people": [
+        "http://localhost:3000/characters/"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/4"
+    },
+    {
+      "id": "5",
+      "title": "Porco Rosso",
+      "original_title": "紅の豚",
+      "original_title_romanised": "Kurenai no buta",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/4/41/Porco_Rosso.jpg",
+      "description": "Porco Rosso, known in Japan as Crimson Pig (Kurenai no Buta) is the sixth animated film by Hayao Miyazaki and released in 1992. You're introduced to an Italian World War I fighter ace, now living as a freelance bounty hunter chasing 'air pirates' in the Adriatic Sea. He has been given a curse that changed his head to that of a pig. Once called Marco Pagot, he is now known to the world as 'Porco Rosso', Italian for 'Red Pig.'",
+      "director": "Hayao Miyazaki",
+      "producer": "Toshio Suzuki",
+      "release_date": "1992",
+      "running_time": "93",
+      "rt_score": "94",
+      "people": [
+        "http://localhost:3000/characters/40"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/5"
+    },
+    {
+      "id": "6",
+      "title": "Pom Poko",
+      "original_title": "平成狸合戦ぽんぽこ",
+      "original_title_romanised": "Heisei tanuki gassen Ponpoko",
+      "image": "https://media.baselineresearch.com/images/601299/601299_full.jpg",
+      "description": "As the human city development encroaches on the raccoon population's forest and meadow habitat, the raccoons find themselves faced with the very real possibility of extinction. In response, the raccoons engage in a desperate struggle to stop the construction and preserve their home.",
+      "director": "Isao Takahata",
+      "producer": "Toshio Suzuki",
+      "release_date": "1994",
+      "running_time": "119",
+      "rt_score": "78",
+      "people": [
+        "http://localhost:3000/characters/"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/6"
+    },
+    {
+      "id": "7",
+      "title": "Whisper of the Heart",
+      "original_title": "耳をすませば",
+      "original_title_romanised": "Mimi wo sumaseba",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDg0MWNmNjktMGEwZC00ZDlmLWI1MTUtMDBmNjQzMWM2NjBjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "description": "Shizuku lives a simple life, dominated by her love for stories and writing. One day she notices that all the library books she has have been previously checked out by the same person: 'Seiji Amasawa'. Curious as to who he is, Shizuku meets a boy her age whom she finds infuriating, but discovers to her shock that he is her 'Prince of Books'. As she grows closer to him, she realises that he merely read all those books to bring himself closer to her. The boy Seiji aspires to be a violin maker in Italy, and it is his dreams that make Shizuku realise that she has no clear path for her life. Knowing that her strength lies in writing, she tests her talents by writing a story about Baron, a cat statuette belonging to Seiji's grandfather.",
+      "director": "Yoshifumi Kondō",
+      "producer": "Toshio Suzuki",
+      "release_date": "1995",
+      "running_time": "111",
+      "rt_score": "91",
+      "people": [
+        "http://localhost:3000/characters/33",
+        "http://localhost:3000/characters/37"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/7"
+    },
+    {
+      "id": "8",
+      "title": "Princess Mononoke",
+      "original_title": "もののけ姫",
+      "original_title_romanised": "Mononoke hime",
+      "image": "https://1.bp.blogspot.com/-_HwESFFo8tc/XptPcrajqiI/AAAAAAAANdM/Mj7boQYUTZo52G1oylqIumgjQ4ynTxzsgCLcBGAsYHQ/s1600/Princesa%2BMononoke%2BStudio%2BGhibli%2BNetflix.jpg",
+      "description": "Ashitaka, a prince of the disappearing Ainu tribe, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.",
+      "director": "Hayao Miyazaki",
+      "producer": "Toshio Suzuki",
+      "release_date": "1997",
+      "running_time": "134",
+      "rt_score": "92",
+      "people": [
+        "http://localhost:3000/characters/11",
+        "http://localhost:3000/characters/12",
+        "http://localhost:3000/characters/18",
+        "http://localhost:3000/characters/19",
+        "http://localhost:3000/characters/20",
+        "http://localhost:3000/characters/13",
+        "http://localhost:3000/characters/14",
+        "http://localhost:3000/characters/15",
+        "http://localhost:3000/characters/16",
+        "http://localhost:3000/characters/17"
+      ],
+      "species": [
+        "Human",
+        "Deer",
+        "God"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/8"
+    },
+    {
+      "id": "9",
+      "title": "My Neighbors the Yamadas",
+      "original_title": "ホーホケキョ となりの山田くん",
+      "original_title_romanised": "Hōhokekyo tonari no Yamada-kun",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzgwODZkMmYtMTBhNi00OWU1LThjNjYtMmJlY2QxNjNlZDNiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "description": "The Yamadas are a typical middle class Japanese family in urban Tokyo and this film shows us a variety of episodes of their lives. With tales that range from the humourous to the heartbreaking, we see this family cope with life's little conflicts, problems and joys in their own way.",
+      "director": "Isao Takahata",
+      "producer": "Toshio Suzuki",
+      "release_date": "1999",
+      "running_time": "104",
+      "rt_score": "75",
+      "people": [
+        "http://localhost:3000/characters/"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/9"
+    },
+    {
+      "id": "10",
+      "title": "Spirited Away",
+      "original_title": "千と千尋の神隠し",
+      "original_title_romanised": "Sen to Chihiro no kamikakushi",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "description": "Spirited Away is an Oscar winning Japanese animated film about a ten year old girl who wanders away from her parents along a path that leads to a world ruled by strange and unusual monster-like animals. Her parents have been changed into pigs along with others inside a bathhouse full of these creatures. Will she ever see the world how it once was?",
+      "director": "Hayao Miyazaki",
+      "producer": "Toshio Suzuki",
+      "release_date": "2001",
+      "running_time": "124",
+      "rt_score": "97",
+      "people": [
+        "http://localhost:3000/characters/39"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/10"
+    },
+    {
+      "id": "11",
+      "title": "The Cat Returns",
+      "original_title": "猫の恩返し",
+      "original_title_romanised": "Neko no ongaeshi",
+      "image": "https://m.media-amazon.com/images/M/MV5BYThhZDdiMjItYzRkNy00OTE3LTk5ZDEtMzUwNzE1ZmJkMTYzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "description": "Haru, a schoolgirl bored by her ordinary routine, saves the life of an unusual cat and suddenly her world is transformed beyond anything she ever imagined. The Cat King rewards her good deed with a flurry of presents, including a very shocking proposal of marriage to his son! Haru embarks on an unexpected journey to the Kingdom of Cats where her eyes are opened to a whole other world.",
+      "director": "Hiroyuki Morita",
+      "producer": "Toshio Suzuki",
+      "release_date": "2002",
+      "running_time": "75",
+      "rt_score": "89",
+      "people": [
+        "http://localhost:3000/characters/33",
+        "http://localhost:3000/characters/34",
+        "http://localhost:3000/characters/35",
+        "http://localhost:3000/characters/36",
+        "http://localhost:3000/characters/37",
+        "http://localhost:3000/characters/38"
+        
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/11"
+    },
+    {
+      "id": "12",
+      "title": "Howl's Moving Castle",
+      "original_title": "ハウルの動く城",
+      "original_title_romanised": "Hauru no ugoku shiro",
+      "image": "https://m.media-amazon.com/images/M/MV5BNmM4YTFmMmItMGE3Yy00MmRkLTlmZGEtMzZlOTQzYjk3MzA2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "description": "When Sophie, a shy young woman, is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking home.",
+      "director": "Hayao Miyazaki",
+      "producer": "Toshio Suzuki",
+      "release_date": "2004",
+      "running_time": "119",
+      "rt_score": "87",
+      "people": [
+        "http://localhost:3000/characters/"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/12"
+    },
+    {
+      "id": "13",
+      "title": "Tales from Earthsea",
+      "original_title": "ゲド戦記",
+      "original_title_romanised": "Gedo senki",
+      "image": "https://m.media-amazon.com/images/M/MV5BZGFlN2FhYTktZGYzNi00MzllLWFlOTAtY2ExNjRjZjhkZWM2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY1200_CR87,0,630,1200_AL_.jpg",
+      "description": "Something bizarre has come over the land. The kingdom is deteriorating. People are beginning to act strange... What's even more strange is that people are beginning to see dragons, which shouldn't enter the world of humans. Due to all these bizarre events, Ged, a wandering wizard, is investigating the cause. During his journey, he meets Prince Arren, a young distraught teenage boy. While Arren may look like a shy young teen, he has a severe dark side, which grants him strength, hatred, ruthlessness and has no mercy, especially when it comes to protecting Teru. For the witch Kumo this is a perfect opportunity. She can use the boy's 'fears' against the very one who would help him, Ged.",
+      "director": "Gorō Miyazaki",
+      "producer": "Toshio Suzuki",
+      "release_date": "2006",
+      "running_time": "116",
+      "rt_score": "41",
+      "people": [
+        "http://localhost:3000/characters/"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/13"
+    },
+    {
+      "id": "14",
+      "title": "Ponyo",
+      "original_title": "崖の上のポニョ",
+      "original_title_romanised": "Gake no ue no Ponyo",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71AIQ15DemL._AC_SL1500_.jpg",
+      "description": "The son of a sailor, 5-year old Sosuke lives a quiet life on an oceanside cliff with his mother Lisa. One fateful day, he finds a beautiful goldfish trapped in a bottle on the beach and upon rescuing her, names her Ponyo. But she is no ordinary goldfish. The daughter of a masterful wizard and a sea goddess, Ponyo uses her father's magic to transform herself into a young girl and quickly falls in love with Sosuke, but the use of such powerful sorcery causes a dangerous imbalance in the world. As the moon steadily draws nearer to the earth and Ponyo's father sends the ocean's mighty waves to find his daughter, the two children embark on an adventure of a lifetime to save the world and fulfill Ponyo's dreams of becoming human.",
+      "director": "Hayao Miyazaki",
+      "producer": "Toshio Suzuki",
+      "release_date": "2008",
+      "running_time": "100",
+      "rt_score": "92",
+      "people": [
+        "http://localhost:3000/characters/41"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/14"
+    },
+    {
+      "id": "15",
+      "title": "The Secret World of Arrietty",
+      "original_title": "借りぐらしのアリエッティ",
+      "original_title_romanised": "Karigurashi no Arietti",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDY3ZGI0ZDAtMThlNy00MzAxLTg4YjAtNjkwYTkxNmQ4MjdlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "description": "14-year-old Arrietty and the rest of the Clock family live in peaceful anonymity as they make their own home from items 'borrowed' from the house's human inhabitants. However, life changes for the Clocks when a human boy discovers Arrietty.",
+      "director": "Hiromasa Yonebayashi",
+      "producer": "Toshio Suzuki",
+      "release_date": "2010",
+      "running_time": "94",
+      "rt_score": "95",
+      "people": [
+        "http://localhost:3000/characters/32"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/15"
+    },
+    {
+      "id": "16",
+      "title": "From Up on Poppy Hill",
+      "original_title": "コクリコ坂から",
+      "original_title_romanised": "Kokuriko zaka kara",
+      "image": "https://m.media-amazon.com/images/M/MV5BZmFjMTYwODAtMTUzZi00NWUzLWIzMjUtYTNiZTE2MzNlMjNiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "description": "The story is set in 1963 in Yokohama. Kokuriko Manor sits on a hill overlooking the harbour. A 16 year-old girl, Umi, lives in that house. Every morning she raises a signal flag facing the sea. The flag means “I pray for safe voyages”. A 17 year-old boy, Shun, always sees this flag from the sea as he rides a tugboat to school. Gradually the pair are drawn to each other but they are faced with a sudden trial. Even so, they keep going without running from facing the hardships of reality.",
+      "director": "Gorō Miyazaki",
+      "producer": "Toshio Suzuki",
+      "release_date": "2011",
+      "running_time": "91",
+      "rt_score": "83",
+      "people": [
+        "http://localhost:3000/characters/"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/16"
+    },
+    {
+      "id": "17",
+      "title": "The Wind Rises",
+      "original_title": "風立ちぬ",
+      "original_title_romanised": "Kaze tachinu",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTU4NDg0MzkzNV5BMl5BanBnXkFtZTgwODA3Mzc1MDE@._V1_.jpg",
+      "description": "A lifelong love of flight inspires Japanese aviation engineer Jiro Horikoshi, whose storied career includes the creation of the A-6M World War II fighter plane.",
+      "director": "Hayao Miyazaki",
+      "producer": "Toshio Suzuki",
+      "release_date": "2013",
+      "running_time": "126",
+      "rt_score": "89",
+      "people": [
+        "http://localhost:3000/characters/"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/17"
+    },
+    {
+      "id": "18",
+      "title": "The Tale of the Princess Kaguya",
+      "original_title": "かぐや姫の物語",
+      "original_title_romanised": "Kaguya-Hime no Monogatari",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTgzOTI4OTYyNl5BMl5BanBnXkFtZTgwODI4NjQ5MDE@._V1_.jpg",
+      "description": "A bamboo cutter named Sanuki no Miyatsuko discovers a miniature girl inside a glowing bamboo shoot. Believing her to be a divine presence, he and his wife decide to raise her as their own, calling her 'Princess'.",
+      "director": "Isao Takahata",
+      "producer": "Yoshiaki Nishimura",
+      "release_date": "2013",
+      "running_time": "137",
+      "rt_score": "100",
+      "people": [
+        "http://localhost:3000/characters/"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/18"
+    },
+    {
+      "id": "19",
+      "title": "When Marnie Was There",
+      "original_title": "思い出のマーニー",
+      "original_title_romanised": "Omoide no Marnie",
+      "image": "https://m.media-amazon.com/images/M/MV5BZTlmYTJmMWEtNDRhNy00ODc1LTg2OTMtMjk2ODJhNTA4YTE1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "description": "The film follows Anna Sasaki living with her relatives in the seaside town. Anna comes across a nearby abandoned mansion, where she meets Marnie, a mysterious girl who asks her to promise to keep their secrets from everyone. As the summer progresses, Anna spends more time with Marnie, and eventually Anna learns the truth about her family and foster care.",
+      "director": "Hiromasa Yonebayashi",
+      "producer": "Yoshiaki Nishimura",
+      "release_date": "2014",
+      "running_time": "103",
+      "rt_score": "92",
+      "people": [
+        "http://localhost:3000/characters/"
+      ],
+      "species": [
+        "Human"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/19"
+    },
+    {
+      "id": "20",
+      "title": "The Red Turtle",
+      "original_title": "レッドタートル ある島の物語",
+      "original_title_romanised": "Reddotātoru aru shima no monogatari",
+      "image": "https://m.media-amazon.com/images/M/MV5BNGZlYzFhNmYtMmJhMS00YTk5LWI3MDAtZmZhZTM0YzFlYjAxXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "description": "A man set adrift by a storm wakes up on a beach. He discovers that he is on a deserted island with plenty of fresh water, fruit and a dense bamboo forest. He builds a raft from bamboo and attempts to sail away, but his raft is destroyed by an unseen monster in the sea, forcing him back to the island. He tries again with another, larger raft, but is again foiled by the creature. A third attempt again ends with the raft destroyed, but this time he is confronted by a giant red turtle, which stares at him, and forces him back to the island.",
+      "director": "Michaël Dudok de Wit",
+      "producer": "Toshio Suzuki, Isao Takahata, Vincent Maraval, Pascal Caucheteux, Grégoire Sorlat",
+      "release_date": "2016",
+      "running_time": "80",
+      "rt_score": "93",
+      "people": [
+        "http://localhost:3000/characters/"
+      ],
+      "species": [
+        "https://ghibliapi.herokuapp.com/species/"
+      ],
+      "locations": [
+        "https://ghibliapi.herokuapp.com/locations/"
+      ],
+      "vehicles": [
+        "https://ghibliapi.herokuapp.com/vehicles/"
+      ],
+      "url": "http://localhost:3000/films/20"
     }
   ],
-  "comments" : [
+  "directors": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": "0",
+      "name": "Hayao Miyazaki",
+      "alt_name": "宮崎 駿",
+      "dates": "b. 1941",
+      "description": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg",
+      "films": [
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        },
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        },
+        {
+          "title": "Kiki's Delivery Service",
+          "url": "http://localhost:3000/films/3"
+        },
+        {
+          "title": "Porco Rosso",
+          "url": "http://localhost:3000/films/5"
+        },
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        },
+        {
+          "title": "Spirited Away",
+          "url": "http://localhost:3000/films/10"
+        },
+        {
+          "title": "Howl's Moving Castle",
+          "url": "http://localhost:3000/films/12"
+        },
+        {
+          "title": "Ponyo",
+          "url": "http://localhost:3000/films/14"
+        },
+        {
+          "title": "The Wind Rises",
+          "url": "http://localhost:3000/films/17"
+        }
+      ],
+      "url": "http://localhost:3000/directors/0"
+    },
+    {
+      "id": "1",
+      "name": "Isao Takahata",
+      "alt_name": "高畑 勲",
+      "dates": "1935-2018",
+      "description": "",
+      "image": "https://m.media-amazon.com/images/M/MV5BNDM5OTc2NjI1MV5BMl5BanBnXkFtZTgwOTI3MjA4MTE@._V1_.jpg",
+      "films": [
+        {
+          "title": "Grave of the Fireflies",
+          "url": "http://localhost:3000/films/1"
+        },
+        {
+          "title": "Only Yesterday",
+          "url": "http://localhost:3000/films/4"
+        },
+        {
+          "title": "Pom Poko",
+          "url": "http://localhost:3000/films/6"
+        },
+        {
+          "title": "My Neighbors the Yamadas",
+          "url": "http://localhost:3000/films/9"
+        },
+        {
+          "title": "The Tale of the Princess Kaguya",
+          "url": "http://localhost:3000/films/18"
+        }
+      ],
+      "url": "http://localhost:3000/directors/1"
+    },
+    {
+      "id": "2",
+      "name": "Yoshifumi Kondō",
+      "alt_name": "近藤 喜文",
+      "dates": "1950-1998",
+      "description": "",
+      "image": "https://8hours-prod.s3.amazonaws.com/uploads/2019/02/Yoshifumi-Kondou.jpg",
+      "films": [
+        {
+          "title": "Whisper of the Heart",
+          "url": "http://localhost:3000/films/7"
+        }
+      ],
+      "url": "http://localhost:3000/directors/2"
+    },
+    {
+      "id": "3",
+      "name": "Hiroyuki Morita",
+      "alt_name": "森田 宏幸",
+      "dates": "b. 1964",
+      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/b/b3/Morita.jpg",
+      "films": [
+        {
+          "title": "The Cat Returns",
+          "url": "http://localhost:3000/films/11"
+        }
+      ],
+      "url": "http://localhost:3000/directors/3"
+    },
+    {
+      "id": "4",
+      "name": "Gorō Miyazaki",
+      "alt_name": "宮崎 吾朗",
+      "dates": "b. 1967",
+      "description": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Gor%C5%8D_Miyazaki.jpg",
+      "films": [
+        {
+          "title": "Tales from Earthsea",
+          "url": "http://localhost:3000/films/13"
+        },
+        {
+          "title": "From Up on Poppy Hill",
+          "url": "http://localhost:3000/films/16"
+        }
+      ],
+      "url": "http://localhost:3000/directors/4"
+    },
+    {
+      "id": "5",
+      "name": "Hiromasa Yonebayashi",
+      "alt_name": "米林 宏昌",
+      "dates": "b. 1973",
+      "description": "",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/9/9c/Hiromasa_Yonebayashi.jpg",
+      "films": [
+        {
+          "title": "The Secret World of Arrietty",
+          "url": "http://localhost:3000/films/15"
+        },
+        {
+          "title": "When Marnie Was There",
+          "url": "http://localhost:3000/films/19"
+        }
+      ],
+      "url": "http://localhost:3000/directors/5"
+    },
+    {
+      "id": "6",
+      "name": "Michaël Dudok de Wit",
+      "alt_name": "",
+      "dates": "b. 1953",
+      "description": "",
+      "image": "https://www.indiewire.com/wp-content/uploads/2017/01/michael-dudok-de-wit.jpg",
+      "films": [
+        {
+          "title": "The Red Turtle",
+          "url": "http://localhost:3000/films/20"
+        }
+      ],
+      "url": "http://localhost:3000/directors/6"
+    }
+  ],
+  "characters": [
+    {
+      "id": "0",
+      "name": "Pazu",
+      "gender": "Male",
+      "age": "13",
+      "eye_color": "Black",
+      "hair_color": "Brown",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/8/8b/Pazu.jpg",
+      "description": "Pazu is an orphan who lives alone in a small hut atop a hill in Slag Ravine. While no mention is made of his mother, his father was an avid aviator who, though no one had believed him, had previously discovered and photographed the floating kingdom of Laputa. After his death, Pazu swore that he would find Laputa and prove his father right.",
+      "films": [
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/0"
+    },
+    {
+      "id": "1",
+      "name": "Lusheeta Toel Ul Laputa (Sheeta)",
+      "gender": "Female",
+      "age": "13",
+      "eye_color": "Black",
+      "hair_color": "Black",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c3/Sheeta.jpg",
+      "description": "Sheeta is the rightful princess of Laputa. She possesses an Aetherium crystal, which can save her in times of danger. Possessing the Aetherium crystal, she is chased down by the Dola gang, Muska, and the military. Muska manages to capture her and take her into custody aboard the civilian passenger airship Saturn.",
+      "films": [
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/1"
+    },
+    {
+      "id": "2",
+      "name": "Dola",
+      "gender": "Female",
+      "age": "60",
+      "eye_color": "Black",
+      "hair_color": "Peach",
+      "image": "http://cdn.playbuzz.com/cdn/2b4b3e35-1e9f-4b7f-bc9e-8580f88525f4/05b9ecd9-bd01-434a-96b7-7135a665dac3.jpg",
+      "description": "Dola is the captain of a band of air pirates in Laputa: Castle in the Sky. Her nemesis is Colonel Muska. She is interested in the treasures of the ancient floating city of Laputa, which initially puts her at odds with the film's protagonists.",
+      "films": [
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/2"
+    },
+    {
+      "id": "3",
+      "name": "Romska Palo Ul Laputa (Muska)",
+      "gender": "Male",
+      "age": "33",
+      "eye_color": "Hazel",
+      "hair_color": "Brown",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/d/d5/Muska.jpg",
+      "description": "Colonel Muska is a government special agent and the main antagonist of the movie Laputa: Castle in the Sky. His goal is to seize control of Laputa's superior technological power by using the Aetherium crystal.",
+      "films": [
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/3"
+    },
+    {
+      "id": "4",
+      "name": "Uncle Pom",
+      "gender": "Male",
+      "age": "Unspecified/Elderly",
+      "eye_color": "Black",
+      "hair_color": "White",
+      "image": "https://www.anime-planet.com/images/characters/uncle-pom-19051.jpg",
+      "description": "Uncle Pom is an old coal miner in Laputa: Castle in the Sky. He is usually found in the deeper parts of mines and rarely ever goes above ground. He is a kind, old man that the townspeople call Uncle Pom, because he looks out for everyone. He is especially fond of Pazu.",
+      "films": [
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/4"
+    },
+    {
+      "id": "5",
+      "name": "General Muoro",
+      "gender": "Male",
+      "age": "Unspecified/Adult",
+      "eye_color": "Black",
+      "hair_color": "None",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/1/12/Muoro.jpg",
+      "description": "General Muoro is the secondary antagonist in Laputa: Castle in the Sky. Muoro is a general in the army and is Colonel Muska's subordinate. Muoro is abrasive and aggressive, and he likes being in control. He resents Muska's authority over the army and the Laputa project, and he is sometimes suspicious of Muska's actions.",
+      "films": [
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/5"
+    },
+    {
+      "id": "6",
+      "name": "Duffi",
+      "gender": "Male",
+      "age": "Unspecified/Adult",
+      "eye_color": "Dark brown",
+      "hair_color": "Dark brown",
+      "image": "https://www.anime-planet.com/images/characters/duffi-19034.jpg",
+      "description": "Mr. Duffi is the boss of Pazu in Laputa: Castle in the Sky. Mr. Duffi has a wife, Okami, and a young daughter, Madge. ",
+      "films": [
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/6"
+    },
+    {
+      "id": "7",
+      "name": "Louis",
+      "gender": "Male",
+      "age": "30",
+      "eye_color": "Dark brown",
+      "hair_color": "Dark brown",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/2/28/Charlies.jpg",
+      "description": "Louis is Dola's eldest son and a member of her gang of air pirates in the movie Laputa: Castle in the Sky.",
+      "films": [
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/7"
+    },
+    {
+      "id": "8",
+      "name": "Charles",
+      "gender": "Male",
+      "age": "Unspecified/Adult",
+      "eye_color": "Dark brown",
+      "hair_color": "Light brown",
+      "image": "https://animecult.org/uploads/attachment/cover/4051/characters_34846.jpg",
+      "description": "Charles is Dola's second-oldest son and a member of her gang in Laputa: Castle in the Sky.",
+      "films": [
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/8"
+    },
+    {
+      "id": "9",
+      "name": "Motro",
+      "gender": "Male",
+      "age": "Unspecified/Adult",
+      "eye_color": "Dark brown",
+      "hair_color": "None",
+      "image": "https://www.anime-planet.com/images/characters/motro-185317.jpg",
+      "description": "Motro is a character from Laputa: Castle in the Sky. He is Dola's husband and works on board the airship Tiger Moth as its engineer. Motro is short and bald with a large, brown mustache. He always wears round, tinted glasses.",
+      "films": [
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/9"
+    },
+    {
+      "id": "10",
+      "name": "Okami",
+      "gender": "Female",
+      "age": "50",
+      "eye_color": "Dark brown",
+      "hair_color": "Orange",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/6/65/Okami.jpg",
+      "description": "Okami is the wife of Mr. Duffi and mother of Madge in the film Laputa: Castle in the Sky. Like her husband, Okami watches out for and takes care of Pazu, as well as Sheeta when she befriends Pazu. She helps protect the children from the air pirates when they pursue Sheeta.",
+      "films": [
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/10"
+    },
+    {
+      "id": "11",
+      "name": "Prince Ashitaka",
+      "gender": "Male",
+      "age": "17 years old",
+      "eye_color": "Brown",
+      "hair_color": "Brown",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/4/49/Ashitaka.jpg",
+      "description": "Prince Ashitaka is the protagonist of Princess Mononoke and prince of Emishi Village. Ashitaka is very stern and determined to achieve his goals, not allowing his setbacks to stop him from curing his curse and saving his village. He is also extremely curious in nature, wanting to discover who San truly is after witnessing her sucking venom out of one of the wolves. Despite his hard outer shell, Ashitaka is also very kind and only wishes for the best outcomes for both sides, not wishing for either side to shed blood in destructive wars, and wants peace between the forces of nature and humanity.",
+      "films": [
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/11"
+    },
+    {
+      "id": "12",
+      "name": "San",
+      "gender": "Female",
+      "age": "17",
+      "eye_color": "Brown",
+      "hair_color": "Brown",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/3/3f/San.jpg",
+      "description": "San, otherwise known as Princess Mononoke or the 'Wolf Girl,' is the main character, along with Ashitaka, in Princess Mononoke. She acts, behaves, and resembles a wolf due to the fact that she was raised by wolves themselves. San is the Princess of the Wolf Gods. When San was a baby, the wolf goddess Moro attacked her parents, who were found damaging the forest. Her parents threw San to her feet and ran away. Moro raised San as her own daughter, and in turn San treats Moro as her mother and Moro's two natural pups as her siblings.",
+      "films": [
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/12"
+    },
+    {
+      "id": "13",
+      "name": "Lady Eboshi",
+      "gender": "Female",
+      "age": "Unspecified/Adult",
+      "eye_color": "Hazel",
+      "hair_color": "Black",
+      "image": "https://filmschoolrejects.com/wp-content/uploads/2019/10/Eboshi-1280x720.jpg",
+      "description": "Eboshi is the main antagonist of Princess Mononoke. Eboshi is a tough and arrogant woman who wants to positively influence the world. As the leader of Iron Town, the townspeople love her, giving her the highest influence as she was the one who freed them from their oppressive environments by bringing them all to Irontown. She has the girls work the forge and the lepers make guns for her, making her a grey character.",
+      "films": [
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/13"
+    },
+    {
+      "id": "14",
+      "name": "Jigo",
+      "gender": "Male",
+      "age": "Middle age",
+      "eye_color": "Black",
+      "hair_color": "Brown",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/7/72/Jigo.jpg",
+      "description": "Jigo is a character from Princess Mononoke. He first appears as Ashitaka's ally, but is later revealed to be the secondary antagonist, wanting to present the Forest Spirit's severed head to the Emperor Mikado so that he could be paid handsomely. It is said the head has the power of eternal youth. He is a member of the mysterious organization Shishoren (eng. The Alliance of Lords). Jigo pretends to be a knowledgeable monk and initially helped Ashitaka by giving him information about the Forest Spirit while being pessimistic about the state of the world",
+      "films": [
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/14"
+    },
+    {
+      "id": "15",
+      "name": "Kohroku",
+      "gender": "Male",
+      "age": "Adult",
+      "eye_color": "Black",
+      "hair_color": "Brown",
+      "image": "https://www.anime-planet.com/images/characters/koroku-2705.jpg",
+      "description": "Kohroku is the husband of Toki in Princess Mononoke. Ashitaka has to rescue him after he, Lady Eboshi and the rest of the working men ran into San and the wolves, while bringing their goods back to Irontown. He was injured and thrown into a river, where Ashitaka found him and brought him back to the safety of Irontown.",
+      "films": [
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/15"
+    },
+    {
+      "id": "16",
+      "name": "Gonza",
+      "gender": "Male",
+      "age": "Adult",
+      "eye_color": "Grey",
+      "hair_color": "Bald, but beard is Brown",
+      "image": "https://ami.animecharactersdatabase.com/uploads/chars/5688-2082147945.jpg",
+      "description": "Gonza is a character from Princess Mononoke. He commands the soldiers in Irontown. He is a loyal henchman to Eboshi and is quick to draw his sword to defend her honor. Beside Eboshi, he distrusts all people, because many people like Asano try to occupy Irontown.",
+      "films": [
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/16"
+    },
+    {
+      "id": "17",
+      "name": "Hī-sama",
+      "gender": "Female",
+      "age": "Over 50",
+      "eye_color": "Brown",
+      "hair_color": "White",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/8/83/Hii-sama.jpg",
+      "description": "Hī-sama is the wise woman in Princess Mononoke. She is first seen after Nago's attack. She carries hot water in a jar, which Kaya pours on Ashitaka's arm. Then she bows to Nago and she pleads to him not to pour his anger on the village.",
+      "films": [
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/17"
+    },
+    {
+      "id": "18",
+      "name": "Yakul",
+      "age": "Unknown",
+      "gender": "Male",
+      "eye_color": "Grey",
+      "hair_color": "Brown",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/e/ef/Yakul.jpg",
+      "description": "Yakul (also known Yakkuru in Japanese) is Ashitaka's loyal red elk in Princess Mononoke. He looks very similar to the Forest Spirit, but doesn't have a human face or as many horns.",
+      "films": [
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
+      ],
+      "species": "Deer",
+      "url": "http://localhost:3000/characters/18"
+    },
+    {
+      "id": "19",
+      "name": "Shishigami (Forest Spirit)",
+      "age": "400",
+      "gender": "Male",
+      "eye_color": "Red",
+      "hair_color": "Light Orange",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/b/b7/Forest_Spirit.jpg",
+      "description": "Forest Spirit, also called Shishigami (シシガミ) and Night-Walker (デイダラボッチ, Deidarabotchi), is a supporting character in Princess Mononoke. It is known as a god of life and death. The Forest Spirit looks like a deer, but with more antlers and a human-like face. It can transform into a gigantic, translucent humanoid during the night called the Night-Walker.",
+      "films": [
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
+      ],
+      "species": "Deity",
+      "url": "http://localhost:3000/characters/19"
+    },
+    {
+      "id": "20",
+      "name": "Moro",
+      "gender": "Female",
+      "age": "300",
+      "eye_color": "Brown",
+      "hair_color": "White",
+      "image": "https://i.pinimg.com/originals/90/39/a7/9039a7d19889e5b63053ca42d8d494d8.jpg",
+      "description": "Moro is supporting character of Princess Mononoke film. She is the three-hundred years old god of the wolves who posesses divine power and intelligence, as well as being capable of understanding and speaking human languages. Moro is very wise and is keen to the tricks of mankind. She is a stoic and strong character who knows the evil intentions of humans. She is the leader of the wolf tribe and a loving mother. Moro comes across as threatening towards Ashitaka, but understands his deep affection for San.",
+      "films": [
+        {
+          "title": "Princess Mononoke",
+          "url": "http://localhost:3000/films/8"
+        }
+      ],
+      "species": "Deity",
+      "url": "http://localhost:3000/characters/20"
+    },
+    {
+      "id": "21",
+      "name": "Jiji",
+      "gender": "Male",
+      "age": "NA",
+      "eye_color": "Black",
+      "hair_color": "Black",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/b/b4/Jiji.jpg",
+      "description": "Jiji is Kiki's pet cat and her closest companion in the film Kiki's Delivery Service.",
+      "films": [
+        {
+          "title": "Kiki's Delivery Service",
+          "url": "http://localhost:3000/films/3"
+        }
+      ],
+      "species": "Cat",
+      "url": "http://localhost:3000/characters/21"
+    },
+    {
+      "id": "22",
+      "name": "Satsuki Kusakabe",
+      "gender": "Female",
+      "age": "11",
+      "eye_color": "Dark Brown/Black",
+      "hair_color": "Dark Brown",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/f/f2/Satsuki_Kusakabe.jpg",
+      "description": "Satsuki Kusakabe (草壁 サツキ, Kusakabe Satsuki), also known as Satsuko, is the second protagonist of My Neighbor Totoro. She is the older sister of Mei. Satsuki likes to think of herself as grown-up and caring for her sister. She is very lively, although not quite as lively as Mei. Satsuki looks after Mei to the best of her ability despite being upset about their ill mother.",
+      "films": [
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/22"
+    },
+    {
+      "id": "23",
+      "name": "Mei Kusakabe",
+      "gender": "Female",
+      "age": "4",
+      "eye_color": "Brown",
+      "hair_color": "Light Brown",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/b/b5/God_Jul_Mei_%C3%B6nskar_fr%C3%A5n_Tomten.jpg",
+      "description": "Mei Kusakabe (草壁 メイ, Kusakabe Mei) is the four-year-old protagonist little sister of Satsuki in My Neighbor Totoro and Mei and the Kittenbus. She is the daughter of Tatsuo and Yasuko Kusakabe. Stubborn yet cheerful, she is like her older sister in that she is persistent and not timid. But with her initial shyness and tendency to few words, she seems to be even more observant than Satsuki.",
+      "films": [
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/23"
+    },
+    {
+      "id": "24",
+      "name": "Tatsuo Kusakabe",
+      "gender": "Male",
+      "age": "37",
+      "eye_color": "Brown",
+      "hair_color": "Dark Brown",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/d/d6/Tatsuo_Kusakabe.jpg",
+      "description": "Tatsuo Kusakabe (草壁 タツオ Kusakabe Tatsuo) is the husband of Yasuko Kusakabe and the father of Satsuki and Mei Kusakabe who works at a college as a professor of Archaeology. Tatsuo is a very good father who does his best to keep Mei Kusakabe and Satsuki Kusakabe happy when Yasuko Kusakabe is in the hospital. He believes in the imagination of his daughters and understands their belief of Totoro. He is kind and patient.",
+      "films": [
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/24"
+    },
+    {
+      "id": "25",
+      "name": "Yasuko Kusakabe",
+      "gender": "Female",
+      "age": "Adult",
+      "eye_color": "Brown",
+      "hair_color": "Dark Brown",
+      "image": "https://www.anime-planet.com/images/characters/yasuko-kusakabe-2143.jpg",
+      "description": "Yasuko Kusakabe is a supporting character in My Neighbor Totoro. She is the mother of Satsuki and Mei Kusakabe, and the wife of Tatsuo Kusakabe. Presumably, she suffers from Tuberculosis; her sickness being the reason why she and her family moved to the rural country side. She was admitted to the local hospital which offered the best care for the illness, and the family decided it would be best for her to recuperate in a more fresh and sunny environment.",
+      "films": [
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/25"
+    },
+    {
+      "id": "26",
+      "name": "Granny",
+      "gender": "Female",
+      "age": "Elder",
+      "eye_color": "Black",
+      "hair_color": "Grey",
+      "image": "https://www.anime-planet.com/images/characters/granny-my-neighbor-totoro-3678.jpg",
+      "description": "Granny is Kanta's grandmother in the film My Neighbor Totoro. Granny is a kind elderly woman, who cares for every one of her neighbors. Mei is hard to deal with, because she is stubborn. Despite this, Granny tries to please her and even bring Mei to Satsuki's School House.",
+      "films": [
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/26"
+    },
+    {
+      "id": "27",
+      "name": "Kanta Ōgaki",
+      "gender": "Male",
+      "age": "11",
+      "eye_color": "Brown",
+      "hair_color": "Brown",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c3/Kanta.jpg",
+      "description": "Kanta Ōgaki is a supporting character in My Neighbor Totoro. Kanta first appears when the Kusakabe family are making their way to their new house. He shys away very quickly upon seeing Mei and Satsuki. Kanta then brings a basket to Granny who is helping the Kusakabe's move in, where  he meets Satsuki properly and forcefully hands her the basket and runs away, commenting to Satsuki that her house is haunted but Granny catches him",
+      "films": [
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/27"
+    },
+    {
+      "id": "28",
+      "name": "Totoro",
+      "gender": "NA",
+      "age": "",
+      "eye_color": "Grey",
+      "hair_color": "Grey",
+      "image": "https://static.wikia.nocookie.net/disney/images/5/53/Totoro.jpg",
+      "description": "Totoro is the title tetartagonist in Studio Ghibli's film My Neighbor Totoro, as well as its sequel, Mei and the Kittenbus. He is the mascot of Studio Ghibli.",
+      "films": [
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
+      ],
+      "species": "Totoro",
+      "url": "http://localhost:3000/characters/28"
+    },
+    {
+      "id": "29",
+      "name": "Chu Totoro",
+      "gender": "NA",
+      "age": "",
+      "eye_color": "Black",
+      "hair_color": "Blue",
+      "image": "https://img1.ak.crunchyroll.com/i/spire3/c6554614f12dcd4c62756a955c0c11af1559401695_full.jpg",
+      "description": "Chu Totoro is a blue, tiny Totoro. He is chased by Mei with his brother, Chibi, to Totoro's nest in the film My Neighbor Totoro.",
+      "films": [
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
+      ],
+      "species": "Totoro",
+      "url": "http://localhost:3000/characters/29"
+    },
+    {
+      "id": "30",
+      "name": "Chibi Totoro",
+      "gender": "NA",
+      "age": "",
+      "eye_color": "Black",
+      "hair_color": "White",
+      "image": "https://ghiblistudio1.files.wordpress.com/2020/08/d54f63fd0fd12bf2f37aa7c9e7be63ac.jpg",
+      "description": "Chibi Totoro is a white, tiny Totoro. He is chased by Mei with his brother, Chu, to Totoro's nest in the film My Neighbor Totoro.",
+      "films": [
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
+      ],
+      "species": "Totoro",
+      "url": "http://localhost:3000/characters/30"
+    },
+    {
+      "id": "31",
+      "name": "Catbus",
+      "gender": "Male",
+      "age": "NA",
+      "eye_color": "Yellow",
+      "hair_color": "Brown",
+      "image": "https://static.wikia.nocookie.net/myneighbortotoro/images/3/30/Catbus.jpg",
+      "description": "The Catbus is a transporting animal bus-looking character in My Neighbor Totoro. In the film, the Catbus appears on the road of the forest, when Mei, Satsuki and Totoro waiting for Tatsuo Kusakabe's bus to arrive. After the bus speeds a bit too fast and then backs up, it meows with its glowing carlight eyes and smiles like the Cheshire Cat.",
+      "films": [
+        {
+          "title": "My Neighbor Totoro",
+          "url": "http://localhost:3000/films/2"
+        }
+      ],
+      "species": "Cat",
+      "url": "http://localhost:3000/characters/31"
+    },
+    {
+      "id": "32",
+      "name": "Niya",
+      "gender": "Male",
+      "age": "NA",
+      "eye_color": "White",
+      "hair_color": "Beige",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/5/5a/Niya.jpg",
+      "description": "Niya is the cat pet of Sho in The Secret World of Arrietty. Niya is a large beige cat with dark gray patches and a pale muzzle.",
+      "films": [
+        {
+          "title": "The Secret World of Arrietty",
+          "url": "http://localhost:3000/films/15"
+        }
+      ],
+      "species": "Cat",
+      "url": "http://localhost:3000/characters/32"
+    },
+    {
+      "id": "33",
+      "name": "Muta",
+      "gender": "Male",
+      "age": "NA",
+      "eye_color": "White",
+      "hair_color": "Beige",
+      "image": "https://www.anime-planet.com/images/characters/muta-2248.jpg",
+      "description": "Muta is a supporting character in The Cat Returns. Brash and grumpy, Muta is known for his unchecked sense of sarcasm and condescension towards people and his other companions, and for his huge appetite. This accounted for his chagrined relationship with Toto, whom he has a mutual dislike with, though they wouldn't hesitate to team up and work together when the need arises.",
+      "films": [
+        {
+          "title": "The Cat Returns",
+          "url": "http://localhost:3000/films/11"
+        },
+        {
+          "title": "Whisper of the Heart",
+          "url": "http://localhost:3000/films/7"
+        }
+      ],
+      "species": "Cat",
+      "url": "http://localhost:3000/characters/33"
+    },
+    {
+      "id": "34",
+      "name": "Cat King",
+      "gender": "Male",
+      "age": "87",
+      "eye_color": "Emerald",
+      "hair_color": "Grey",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/3/34/The_Cat_King.jpg",
+      "description": "The Cat King is the main antagonist of The Cat Returns. He is a ruthless and evil king. The Cat King kidnaps Haru Yoshioka and brings her to the Cat Kingdom, where she is transformed into a cat. When Prince Lune informs him that he already had a bride called Yuki, the King then tried to marry Haru himself, which she refused to do.",
+      "films": [
+        {
+          "title": "The Cat Returns",
+          "url": "http://localhost:3000/films/11"
+        }
+      ],
+      "species": "Cat",
+      "url": "http://localhost:3000/characters/34"
+    },
+    {
+      "id": "35",
+      "name": "Yuki",
+      "gender": "Female",
+      "age": "NA",
+      "eye_color": "Blue",
+      "hair_color": "White",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/e/eb/New_queen%2C_Yuki.JPG",
+      "description": "Yuki is a character in The Cat Returns. She is friends with Haru Yoshioka. Yuki first appeared as a stray kitten in a flashback, where she was seen being given fish crackers by Haru. In the present day, having noticed that something isn't right, Yuki, in a loud overarching voice, instructed Haru to seek the Cat Business Office, where she meets Muta, a large white cat Yuki told her to seek for directions, who leads her there to meet Baron Humbert von Gikkingen.",
+      "films": [
+        {
+          "title": "The Cat Returns",
+          "url": "http://localhost:3000/films/11"
+        }
+      ],
+      "species": "Cat",
+      "url": "http://localhost:3000/characters/35"
+    },
+    {
+      "id": "36",
+      "name": "Haru Yoshioka",
+      "gender": "Female",
+      "age": "13",
+      "eye_color": "Brown",
+      "hair_color": "Brown",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/2/27/Haru_Yoshioka.jpg",
+      "description": "Haru Yoshioka is the main protagonist of The Cat Returns. She is a messy and awkward girl who struggles to connect with her peers, but her adventures with Yuki and The Baron lead to her finding a new confidence in herself.",
+      "films": [
+        {
+          "title": "The Cat Returns",
+          "url": "http://localhost:3000/films/11"
+        }
+      ],
+      "species": "Cat",
+      "url": "http://localhost:3000/characters/36"
+    },
+    {
+      "id": "37",
+      "name": "Baron Humbert von Gikkingen",
+      "gender": "Male",
+      "age": "NA",
+      "eye_color": "Green",
+      "hair_color": "Yellow",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/4/4f/Humbert_von_Gikkingen.jpg",
+      "description": "Also known simply as The Baron, Baron Humbert von Gikkingen is a (living) statue of an anthropomorphic cat who is fully dressed (including a top hat and shoes). At night, he comes to life. He belongs to the owner of an antique shop named Shiro Nishi.",
+      "films": [
+        {
+          "title": "Whisper of the Heart",
+          "url": "http://localhost:3000/films/7"
+        },
+        {
+          "title": "The Cat Returns",
+          "url": "http://localhost:3000/films/11"
+        }
+      ],
+      "species": "Cat",
+      "url": "http://localhost:3000/characters/37"
+    },
+    {
+      "id": "38",
+      "name": "Natori",
+      "gender": "Male",
+      "age": "NA",
+      "eye_color": "Blue",
+      "hair_color": "Grey",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c4/Natori.jpg",
+      "description": "Natori is an advisor to the Cat King in The Cat Returns.",
+      "films": [
+        {
+          "title": "The Cat Returns",
+          "url": "http://localhost:3000/films/11"
+        }
+      ],
+      "species": "Cat",
+      "url": "http://localhost:3000/characters/38"
+    },
+    {
+      "id": "39",
+      "name": "Chihiro Ogino",
+      "gender": "Female",
+      "age": "10",
+      "eye_color": "Brown",
+      "hair_color": "Brown",
+      "image": "https://static.wikia.nocookie.net/studio-ghibli/images/8/8e/Chihiro_Ogino.jpg",
+      "description": "Chihiro is the 10-year old protagonist of Spirited Away. She is a ten-year-old girl who has brown hair, brown eyes, and rosy cheeks. She is very petite and has a childish appearance, and a pudgy face. Her attire includes a white medium-sleeved T-shirt with bright green stripes, bright red shorts, white socks and sunshine yellow sneakers. Chihiro is in the process of moving to a new town when her family stumbles upon the entrance to the spirit world.",
+      "films": [
+        {
+          "title": "Spirited Away",
+          "url": "http://localhost:3000/films/10"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/39"
+    },
+    {
+      "id": "40",
+      "name": "Marco Pagot",
+      "gender": "Male",
+      "age": "47",
+      "eye_color": "Black",
+      "hair_color": "Brown",
+      "image": "https://static.wikia.nocookie.net/non-aliencreatures/images/7/79/PorcoRosso.jpg",
+      "description": "The protagonist of Porco Rosso, a man in the form of a humanoid pig with a mustache. According to the film's promotional booklet, Porco refused to return to the army and cast a spell on himself. The name 'Porco Rosso' means 'Red Pig' in Italian. He was born around 1892 - 1893 and is roughly 36 years old. He has been flying since he was 17 years old, and was promoted to captain after joining the Italian Air Force where he was active as an ace pilot during World War I. He retired and began working as a bounty hunter. He pilots a red Savoia S.21 prototype combat flight boat. He is known in the Adriatic for helping a downed enemy pilot who was caught in a stormy sea, and is a popular among women as a showboat.",
+      "films": [
+        {
+          "title": "Porco Rosso",
+          "url": "http://localhost:3000/films/5"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/40"
+    },
+    {
+      "id": "41",
+      "name": "Sosuke",
+      "gender": "Male",
+      "age": "5",
+      "eye_color": "Brown",
+      "hair_color": "Brown",
+      "image": "https://i.pinimg.com/originals/54/79/df/5479df1e98a0e80c70d6a94e673720d2.jpg",
+      "description": "Sosuke is intelligent, smart, loyal, cute and heroic. He is willing to protect his friends (including Ponyo, starting from when she washes up on the shore near the house, stuck in a glass jar), even if doing so gets him in trouble with his mother or Ponyo's father (whom they hate). He is interested in the sea, especially since his father, Koichi, is the captain of a ship.",
+      "films": [
+        {
+          "title": "Ponyo",
+          "url": "http://localhost:3000/films/14"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/41"
+    },
+    {
+      "id": "42",
+      "name": "Henri",
+      "gender": "Male",
+      "age": "Unspecified/Adult",
+      "eye_color": "Dark brown",
+      "hair_color": "Reddish brown",
+      "image": "https://www.anime-planet.com/images/characters/henri-19053.jpg",
+      "description": "Henri is Dola's third oldest son and a member of her gang of air pirates in Laputa: Castle in the Sky.",
+      "films": [
+        {
+          "title": "Castle in the Sky",
+          "url": "http://localhost:3000/films/0"
+        }
+      ],
+      "species": "Human",
+      "url": "http://localhost:3000/characters/42"
     }
   ]
 }
